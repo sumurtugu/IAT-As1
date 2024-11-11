@@ -1,0 +1,40 @@
+/* FRONIMOS SPYROS 1117202000223 */
+body { 
+font-family: Arial, Times New Roman; 
+margin: 0; 
+padding: 0; 
+background-color: #fcf5f5; 
+} 
+.box {
+	margin: 1em auto 0 auto;
+	max-width: 600px; 
+	margin: auto; 
+	padding: 20px; 
+	border-radius: 9px; 
+	color:#000000; 
+}
+.box p {
+	background-color: #AED6F1 ; 
+}
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 6px;
+}
+form { 
+max-width: 500px; 
+background-color: #dde9f0; 
+padding: 20px; 
+border: 3px solid; 
+font-family:'Arial'; 
+color:#000000; 
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: #6db4e3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px 3px;
+}

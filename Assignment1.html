@@ -1,0 +1,103 @@
+<!– Fronimos Spyros 1117202000223 –>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment1</title>
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="Assignment1.css" /> <!– Link with the CSS file–>
+</head>
+<body>
+	<div class="box"> <!– Box Creation –>
+	<form method="get" action="http://www.randyconnolly.com/tests/process.php"> 
+		<fieldset>
+			<legend><h1>Photo Details</h1></legend> <!– Box Title –>
+			<table>
+				<tr> <!– First Row –>
+					<td colspan="2"> <!– 2 Column Arrangement –>
+						<label>Title</label><br>
+						<input type="text" name="title"><br>
+						<label>Description</label><br>
+						<textarea name="description"></textarea>
+					</td>
+				</tr>
+				<tr><!– Second Row–>
+					<td> <!– First Column –>
+						<label>Continent</label><br>
+						<select name="continent">
+							<option value="">Select Continent</option>
+							<option value="Europe">Europe</option>
+							<option value="Asia">Asia</option>
+							<option value="North America">North America</option>
+						</select><br>
+						<label>Country</label><br>
+						<select name="country">
+							<option value="">Select Country</option>
+							<option value="Germany">Germany</option>
+							<option value="Spain">Spain</option>
+							<option value="France">France</option>
+						</select><br>
+						<label>City</label><br>
+						<input name="city" type="text">
+					</td> <!– End Of First Column –>
+					<td> <!– Second Column –>
+						<div class="box"> <!– Box Creation –>
+							<fieldset>
+								<label>Copyright?</label><br>
+								<input type="radio" name="copyright" value="All rights reserve">All rights reserve<br>
+								<input type="radio" name="copyright" value="Creative Commons">Creative Commons
+							</fieldset>
+						</div> <!– End Of Box –>
+						<div class="box"> <!– Box Creation –>
+							<fieldset>
+								<label>Creative Commons Type</label><br>
+								<input type="checkbox" name="cc" value="Attribution">Attribution<br>
+								<input type="checkbox" name="cc" value="Noncommercial">Noncommercial<br>
+								<input type="checkbox" name="cc" value="No Derivative Works">No Derivative Works<br>
+								<input type="checkbox" name="cc" value="ShareAlike">ShareAlike
+							</fieldset>
+						</div> <!– End Of Box –>
+					</td> <!– End Of Second Column –>
+				</tr>
+				<tr> <!– Third Row –>
+					<td colspan="2"> <!– 2 Column Arrangement –>
+						<p>
+							I accept the software license<input type="checkbox" name="accept"></p>
+						</p>
+					</td>
+				</tr>
+				<tr> <!– Fourth Row –>
+					<td> <!– First Column –>
+						<label>Rate this photo:</label><br>
+						<input type="number" name="rate" min="1" max="5"><br>
+						<label>Color Collection:</label><br>
+						<input type="color" name="color">
+					</td><!– End Of First Column –>
+					<td><!– Second Column –>
+						<div class="box"> <!– Box Creation –>
+							<fieldset>
+								<label>Date Taken:</label><br>
+								<input type="date" name="date"><br>
+								<label>Time Taken:</label><br>
+								<input type="time" name="time">
+							</fieldset>
+						</div> <!– End Of Box –>
+					</td><!– End Of Second Column –>
+				</tr>
+				<tr> <!– Fifth Row –>
+					<td colspan="2"> <!– 2 Column Arrangement –>
+						<div style="text-align: center;">
+							<p>
+								<input type="submit" value="Submit">
+								<input type="reset" value="Clear Form">
+							</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</fieldset>	
+	</form>
+	</div> <!– End Of Box –>
+</body>
+</html>
